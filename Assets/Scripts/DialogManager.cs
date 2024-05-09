@@ -54,7 +54,7 @@ public class DialogManager : MonoBehaviour {
                                 QuestManager.instance.MarkQuestComplete(questToMark);
                             } else
                             {
-                                QuestManager.instance.MarkQuestIncomplete(questToMark);
+                                QuestManager.instance?.MarkQuestIncomplete(questToMark);
                             }
                         }
                     }

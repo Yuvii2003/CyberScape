@@ -8,6 +8,8 @@ public class AreaEntrance : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        transitionName = GameManager.instance.currentTransition;
+        Debug.Log("AREA ENTERED WITH "+ PlayerController.instance.areaTransitionName);
 		if(transitionName == PlayerController.instance.areaTransitionName)
         {
             PlayerController.instance.transform.position = transform.position;

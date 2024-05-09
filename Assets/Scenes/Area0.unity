@@ -12261,6 +12261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadingBetweenAreas: 0
   dialogActive: 0
+  currentTransition: 
 --- !u!4 &1012870563
 Transform:
   m_ObjectHideFlags: 0
@@ -12358,7 +12359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8855536745739298592, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: areaTransitionName
-      value: 1-0
+      value: Home
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

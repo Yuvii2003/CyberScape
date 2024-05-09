@@ -16,8 +16,7 @@ public class AreaExit : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        theEntrance.transitionName = areaTransitionName;
-
+        
     }
 	
 	// Update is called once per frame
@@ -28,7 +27,9 @@ public class AreaExit : MonoBehaviour {
             if(waitToLoad <= 0)
             {
                 shouldLoadAfterFade = false;
+                GameManager.instance.currentTransition = areaTransitionName;
                 SceneManager.LoadScene(areaToLoad);
+                
             }
         }
 	}

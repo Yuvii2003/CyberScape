@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public bool fadingBetweenAreas, dialogActive ;
-    
+    public string currentTransition;
     
     // Start is called before the first frame update
     void Start()
