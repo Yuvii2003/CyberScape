@@ -18,11 +18,11 @@ public class QuestManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.Q))
+		if(Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Debug.Log(CheckIfComplete("Antivirus"));
-            MarkQuestComplete("Antivirus");
-            //MarkQuestIncomplete("fight the demon");
+            Debug.Log(CheckIfComplete("Antivirus CD"));
+            MarkQuestComplete("Antivirus CD");
+            //MarkQuestIncomplete("Help NPC");
         }
 
         if(Input.GetKeyDown(KeyCode.O))
@@ -46,7 +46,7 @@ public class QuestManager : MonoBehaviour {
             }
         }
 
-        Debug.LogError("Quest " + questToFind + " does not exist");
+        //Debug.LogError("Quest " + questToFind + " does not exist");
         return 0;
     }
 

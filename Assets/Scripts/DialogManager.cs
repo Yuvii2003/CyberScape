@@ -113,18 +113,12 @@ public class DialogManager : MonoBehaviour {
     public IEnumerator TypeSentance()
 
     {
-
         dialogText.text = "";
-
         foreach (char letter in dialogLines[currentLine].ToCharArray())
-
         {
-
             dialogText.text += letter;
-
             yield return new WaitForSeconds(0.02f);
-
         }
-
     }
+    
 }
