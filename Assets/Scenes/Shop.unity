@@ -708,7 +708,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-ShopKeeper
-  - h
+  - Welcome to the Cyber Shop. What can i help you with?
+  - n-Byte
+  - Can you let me know about firewall.
+  - n-Shopkeeper
+  - A firewall is a network security device that monitors incoming and outgoing network
+    traffic.
+  - It decides whether to allow or block specific traffic based on a defined set
+    of security rules.
+  - n-Byte
+  - Should we bypass a firewall for downloading content or accessing sites?
+  - n-Shopkeeper
+  - Bypassing a firewall for downloading content or accessing sites can compromise
+    network security and violate laws or organizational policies.
+  - It undermines the purpose of firewalls, which is to protect systems and sensitive
+    information from external threats and makes it prone to virus attacks and data
+    breaches.
+  - I hope you understand and got aware about it.
+  - n-Byte
+  - Thanks Mr.Shopkeeper for the information.
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -914,7 +932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3520990584547653617, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: transitionName
-      value: Shop
+      value: 2-S
       objectReference: {fileID: 0}
     - target: {fileID: 3538861625198745290, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: m_Name
@@ -922,7 +940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7301578954022500425, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.27
+      value: 1.37
       objectReference: {fileID: 0}
     - target: {fileID: 7301578954022500425, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -934,7 +952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8855536745739298592, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: areaTransitionName
-      value: Out
+      value: S-2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

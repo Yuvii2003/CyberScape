@@ -9,8 +9,7 @@ public class AreaExit : MonoBehaviour {
 
     public string areaTransitionName;
 
-    public AreaEntrance theEntrance;
-
+    
     public float waitToLoad = 1f;
     private bool shouldLoadAfterFade;
 

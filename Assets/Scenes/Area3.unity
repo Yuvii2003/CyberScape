@@ -615,6 +615,9 @@ MonoBehaviour:
   - That studpid Phishing got me.
   - Aghhhhhhh!!!!!!
   isPerson: 1
+  shouldActivateQuest: 0
+  questToMark: 
+  markComplete: 0
 --- !u!61 &1116662049
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11778,8 +11781,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b8be68af2219544388a8e50913b6ec6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - n-Sister
+  - Why he wont ever listen to me? I told him that the he's not an legitimate individual.
+  - Now he is suffering!!
+  - Hey there! I am sorry i didnt notice you.
+  - n-Byte
+  - You seem troubled. Are you okay?  Is there a problem i can help with?
+  - n-Sister
+  - Yes i am okay but My brother got phished by an individual.
+  - n-Byte
+  - I dont get it. Your brother was drowning and got rescued by fishing?
+  - n-Sister
+  - Not Fishing.    Phishing it is a type of Cyber attack.
+  - n-Byte
+  - Can you explain more. I would like to know about it.
+  - n-Sister
+  - Attackers impersonating legitimate individuals, organizations, or companies to
+    deceive users into providing sensitive information such as passwords, credit
+    card numbers, or personal details.
+  - 'These messages often contain urgent or enticing requests, such as claiming there''s
+    an issue with an account that needs immediate attention or offering a prize or
+    reward. '
+  - Sometimes there is a fake link too. My brother got scammed with GTA VI wearly
+    release link and shared his card details.
+  - Phishing attacks exploit human psychology and trust
+  - To protect against phishing attacks, you should be  cautious about clicking on
+    links or downloading attachments from unsolicited emails or messages
+  - Verify the authenticity of requests before providing any sensitive information,
+    use multi-factor authentication where possible, and regularly update security
+    software and systems.
+  - n-Byte
+  - Thankyou for sharing this much with me. I would try to come up with a way to
+    prevent with these kinds of attack.
+  - n-Sister
+  - Cyber world is cruel for beginers accesing the web. Be careful.
+  - I wish my brother listens to me next time. Sigh!!!!
   isPerson: 1
+  shouldActivateQuest: 0
+  questToMark: 
+  markComplete: 0
 --- !u!61 &1388060498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11937,6 +11978,87 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1556773554
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3643443616684473939, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_Size.x
+      value: 13.694193
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643443616684473939, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_Size.y
+      value: 10.819725
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643443616684473939, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_Offset.x
+      value: 6.189576
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643443616684473939, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.56402874
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650007375536840829, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650007375536840829, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650007375536840829, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.19853583
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650007375536840829, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650007375536840829, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650007375536840829, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650007375536840829, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650007375536840829, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650007375536840829, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650007375536840829, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890800328190214458, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: m_Name
+      value: View
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717541458167071751, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: It's a pleasent day for Phishing
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717541458167071751, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: Not Phishing. Fishing***
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05eb979b57966ff499027a74cf2c8b1f, type: 3}
 --- !u!1001 &1786625265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11951,7 +12073,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2044912182182843496, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.85
+      value: 14.98
       objectReference: {fileID: 0}
     - target: {fileID: 2044912182182843496, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11987,19 +12109,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3520990584547653617, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: transitionName
-      value: 3-2
+      value: 2-3
       objectReference: {fileID: 0}
     - target: {fileID: 3538861625198745290, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: m_Name
       value: Area Exit
       objectReference: {fileID: 0}
+    - target: {fileID: 4816110342192501120, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
+      propertyPath: m_Size.y
+      value: 3.6952763
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816110342192501120, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.016721487
+      objectReference: {fileID: 0}
     - target: {fileID: 7301578954022500425, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.92
+      value: -1.14
       objectReference: {fileID: 0}
     - target: {fileID: 7301578954022500425, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8855536745739298592, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: areaToLoad
@@ -12007,7 +12137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8855536745739298592, guid: 4e40341d216282443b1204b39fd215a4, type: 3}
       propertyPath: areaTransitionName
-      value: 4-1
+      value: 3-2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12727,3 +12857,4 @@ SceneRoots:
   - {fileID: 1116662052}
   - {fileID: 1874492307}
   - {fileID: 247952774}
+  - {fileID: 1556773554}
